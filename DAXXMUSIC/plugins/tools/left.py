@@ -92,8 +92,8 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
                 profile_path=photo,
             )
         
-            caption = f"**#New_Member_Left**\n\n**๏** {user.mention} **ʜᴀs ʟᴇғᴛ ᴛʜɪs ɢʀᴏᴜᴘ**\n**๏ sᴇᴇ ʏᴏᴜ sᴏᴏɴ ᴀɢᴀɪɴ..!**"
-            button_text = "๏ ᴠɪᴇᴡ ᴜsᴇʀ ๏"
+            caption = f"**𝗡𝗘𝗪 𝗡𝗜𝗚𝗚𝗔 𝗟𝗘𝗙𝗧**\n\n**🥴** {user.mention} **𝗛𝗮𝘀 𝗟𝗲𝗳𝘁 𝗧𝗵𝗶𝘀 𝗚𝗰**\n**🥴 𝗦𝗲𝗲 𝗬𝗼𝘂 𝗡𝗶𝗴𝗴𝗮..!**"
+            button_text = "👉🏻 𝗶𝘀𝗻𝗲 𝗹𝗲𝗮𝘃𝗲 𝗸𝗶𝘆𝗮 🥴"
 
             # Generate a deep link to open the user's profile
             deep_link = f"tg://openmessage?user_id={user.id}"
@@ -121,5 +121,5 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
             return
     else:
         # Handle the case where the user has no profile photo
-        print(f"User {user.id} has no profile photo.")
+        print(f"User {user.id} 𝗡𝗶𝗴𝗴𝗮 𝗵𝗮𝘀 𝗻𝗼 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗽𝗵𝗼𝘁𝗼.")
         
