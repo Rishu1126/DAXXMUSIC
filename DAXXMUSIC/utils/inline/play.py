@@ -72,7 +72,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text="⛦ 𝗨𝗣𝗗𝗔𝗧𝗘 ❥", url=f"https://t.me/Stylish_Bio_Dp_0"
             ),
-        
+    ]
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -93,7 +93,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(
                 text="⛦ 𝗨𝗣𝗗𝗔𝗧𝗘 ❥", url=f"https://t.me/Stylish_Bio_Dp_0"
             ),
-            
+        ]  
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
