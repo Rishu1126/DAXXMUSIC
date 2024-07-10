@@ -25,7 +25,7 @@ def private_panel(_):
             )
         ],
         [
-            InlineKeyboardButton(text="👉🏻OWNER🥀", url=f"https://t.me/Niksonfire"),
+            InlineKeyboardButton(text="👉🏻𝗢𝗪𝗡𝗘𝗥🥀", url=f"https://t.me/Niksonfire"),
             InlineKeyboardButton(text="⚡𝗨𝗣𝗗𝗔𝗧𝗘𝗦⚡", url=f"https://t.me/Stylish_Bio_Dp_0"),
         ],
         [
