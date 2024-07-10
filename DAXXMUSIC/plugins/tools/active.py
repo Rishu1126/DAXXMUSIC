@@ -14,7 +14,7 @@ from DAXXMUSIC.utils.database import (
 
 @app.on_message(filters.command(["activevc", "activevoice","vc"]) & SUDOERS)
 async def activevc(_, message: Message):
-    mystic = await message.reply_text("» ɢᴇᴛᴛɪɴɢ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ʟɪsᴛ...")
+    mystic = await message.reply_text("👉🏻 𝗙𝗲𝘁𝗰𝗵𝗶𝗻𝗴 𝗔𝗰𝘁𝗶𝘃𝗲 𝗩𝗰  𝗟𝗶𝘀𝘁...")
     served_chats = await get_active_chats()
     text = ""
     j = 0
@@ -36,17 +36,17 @@ async def activevc(_, message: Message):
         except:
             continue
     if not text:
-        await mystic.edit_text(f"» ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ᴏɴ {app.mention}.")
+        await mystic.edit_text(f"👉🏻 𝗡𝗼 𝗔𝗰𝘁𝗶𝘃𝗲 𝗩𝗼𝗶𝗰𝗲 𝗖𝗵𝗮𝘁𝘀 𝗢𝗻 {app.mention}.")
     else:
         await mystic.edit_text(
-            f"<b>» ʟɪsᴛ ᴏғ ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs :</b>\n\n{text}",
+            f"<b>👉🏻 𝗛𝗲𝗿𝗲 𝘁𝗵𝗲 𝗟𝗶𝘀𝘁 𝗢𝗳 𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗔𝗰𝘁𝗶𝘃𝗲 𝗩𝗼𝗶𝗰𝗲 𝗖𝗵𝗮𝘁𝘀 :</b>\n\n{text}",
             disable_web_page_preview=True,
         )
 
 
 @app.on_message(filters.command(["activev", "activevideo","vvc"]) & SUDOERS)
 async def activevi_(_, message: Message):
-    mystic = await message.reply_text("» ɢᴇᴛᴛɪɴɢ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛs ʟɪsᴛ...")
+    mystic = await message.reply_text("👉🏻 𝗙𝗲𝘁𝗰𝗵𝗶𝗻𝗴 𝗔𝗰𝘁𝗶𝘃𝗲 𝘃𝗶𝗱𝗲𝗼 𝗖𝗵𝗮𝘁𝘀 𝗟𝗶𝘀𝘁...")
     served_chats = await get_active_video_chats()
     text = ""
     j = 0
